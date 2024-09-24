@@ -1,0 +1,48 @@
+.pr {
+  text-align: center; /* Centraliza o conteúdo dentro da div */
+}
+
+.pr a {
+  display: block; /* Faz cada link ocupar uma linha */
+  width: 200px; /* Define uma largura fixa para os links */
+  margin: 10px auto; /* Adiciona margem superior e inferior, e centraliza horizontalmente */
+  padding: 10px 20px; /* Mantém o padding */
+  border: none;
+  border-radius: 5px;
+  background-color: #eee2d6;
+  color: #333;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center; /* Centraliza o texto dentro do link */
+}
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #eee2d6;
+  color: #333;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #ddd;
+}
+
+h2 {
+  background-color: #ad815c;
+  display: inline-block;
+  padding: 0.2em;
+  border-radius: 10px; /* Cantos mais arredondados */
+}
+p {
+  background-color: #7d5b35;
+  color: rgb(255, 255, 255);
+  padding: 0.2em;
+  border-radius: 5px;
+}
+
+body {
+  background-color: rgb(201, 201, 201);
+}
